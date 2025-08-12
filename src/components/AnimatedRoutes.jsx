@@ -8,7 +8,7 @@ import Demo from './Demo';
 import Detection from './Detection';
 import Pricing from './Pricing';
 import Contact from './Contact';
-import Testimonials from './Testimonials';
+// import Testimonials from './Testimonials';
 import CallToAction from './CallToAction';
 import Dashboard from './Dashboard';
 import Settings from './Settings';
@@ -41,7 +41,7 @@ function AnimatedRoutes({ detections, addDetection }) {
               <Features />
               <Demo />
               <Detection addDetection={addDetection} />
-              <Testimonials />
+              {/* <Testimonials /> */}
               <CallToAction />
             </motion.div>
           }

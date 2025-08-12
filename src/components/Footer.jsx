@@ -87,7 +87,7 @@ function Footer() {
           <Link to="/contact" className="block text-gray-400 hover:text-white">Contact Us</Link>
 
           <p className="mt-4 text-gray-400">
-            <a href="mailto:support@pixedge.com" className="hover:text-blue-300">support@pixedge.com</a><br />
+            <a href="mailto:support@pixedge.com" className="hover:text-blue-300">infopixedge@gmail.com</a><br />
             +91 1234567890<br />
             Hingane Home Colony<br />
             Karve Nagar, Pune (411058), Maharashtra, India
