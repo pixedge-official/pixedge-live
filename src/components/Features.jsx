@@ -210,7 +210,7 @@ function Features() {
                 >
                   <feature.icon className="text-4xl sm:text-5xl text-indigo-500 mb-3 sm:mb-4 animate-bounce-in" />
                   <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2 text-center">{feature.title}</h3>
-                  <p className="text-gray-600 text-sm sm:text-base text-center line-clamp-3 sm:line-clamp-none">{feature.desc}</p>
+                  {/* <p className="text-gray-600 text-sm sm:text-base text-center line-clamp-3 sm:line-clamp-none">{feature.desc}</p> */}
                 </div>
                 {selectedFeature === index && (
                   <div className="sm:hidden mt-4 p-4 bg-gray-100 rounded-xl shadow-md animate-slide-up">

@@ -11,7 +11,7 @@ function Detection({ addDetection }) {
   };
 
   return (
-    <section className="py-10 bg-white" style={{ backgroundImage: `url(${detectionBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <section className=" bg-white" style={{ backgroundImage: `url(${detectionBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <div className="max-w-7xl mx-auto px-10 sm:px-6 lg:px-8 bg-white bg-opacity-90 p-30 rounded-lg">
         <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center animate-fade-in-up">YOLO Object Detection in Retail</h2>
         <p className="text-lg text-gray-600 mb-10 text-center">See how our computer vision system identifies and analyzes objects in real-time</p>
