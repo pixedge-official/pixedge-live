@@ -150,11 +150,8 @@ import Features from '../Features';
 import Solutions from '../Solutions';
 import Demo from '../Demo';
 import Detection from '../Detection';
-import Pricing from '../Pricing';
 import Contact from '../Contact';
 import CallToAction from '../CallToAction';
-import Dashboard from '../Dashboard';
-import Settings from '../Settings';
 import PixEdgePromo from '../PixEdgePromo';
 import RequestDemo from '../RequestDemo';
 import About from '../About';
@@ -181,10 +178,7 @@ function AnimatedRoutes({ detections, addDetection }) {
         <Route path="/features" element={<PageWrapper><Features /></PageWrapper>} />
         <Route path="/solutions" element={<PageWrapper><Solutions /></PageWrapper>} />
         <Route path="/detection" element={<PageWrapper><Detection addDetection={addDetection} /></PageWrapper>} />
-        <Route path="/pricing" element={<PageWrapper><Pricing /></PageWrapper>} />
         <Route path="/contact" element={<PageWrapper><Contact /></PageWrapper>} />
-        <Route path="/dashboard" element={<PageWrapper><Dashboard detections={detections} /></PageWrapper>} />
-        <Route path="/settings" element={<PageWrapper><Settings /></PageWrapper>} />
         <Route path="/promovideo" element={<PageWrapper><PixEdgePromo /></PageWrapper>} />
         <Route path="/request-demo" element={<PageWrapper><RequestDemo /></PageWrapper>} />
         <Route path="/about" element={<PageWrapper><About /></PageWrapper>} />
