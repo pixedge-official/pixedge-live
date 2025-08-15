@@ -105,6 +105,87 @@
 // export default Footer;
 
 
+// import React from 'react';
+// import { Link } from 'react-router-dom';
+// import { FaLinkedinIn } from 'react-icons/fa';
+
+// function Footer() {
+//   return (
+//     <footer className="bg-gradient-to-b from-gray-900 to-gray-800 text-white py-10 animate-fade-in">
+//       <div className="max-w-7xl mx-auto px-6 sm:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
+        
+//         {/* Brand Info */}
+//         <div>
+//           <h3 className="text-2xl font-extrabold mb-4 text-blue-400">PixEdge</h3>
+//           <p className="text-gray-400 leading-relaxed">
+//             Turning retail spaces into intelligent environments with computer vision and AI.
+//           </p>
+//         </div>
+
+//         {/* Product Links */}
+//         <div>
+//           <h3 className="text-lg font-semibold mb-4 text-blue-300">Product</h3>
+//           <ul className="space-y-2">
+//             <li><Link to="/features" className="hover:text-blue-400 transition">Features</Link></li>
+//             <li><Link to="/solutions" className="hover:text-blue-400 transition">Solutions</Link></li>
+//             <li><Link to="/request-demo" className="hover:text-blue-400 transition">Demo</Link></li>
+//           </ul>
+//         </div>
+
+//         {/* Resources Links */}
+//         <div>
+//           <h3 className="text-lg font-semibold mb-4 text-blue-300">Resources</h3>
+//           <ul className="space-y-2">
+//             <li><Link to="/docs" className="hover:text-blue-400 transition">Documentation</Link></li>
+//             <li><Link to="/api" className="hover:text-blue-400 transition">API Reference</Link></li>
+//             <li><Link to="/case-studies" className="hover:text-blue-400 transition">Case Studies</Link></li>
+//             <li><Link to="/blog" className="hover:text-blue-400 transition">Blog</Link></li>
+//             <li><Link to="/help" className="hover:text-blue-400 transition">Help Center</Link></li>
+//           </ul>
+//         </div>
+
+//         {/* Company Info */}
+//         <div>
+//           <h3 className="text-lg font-semibold mb-4 text-blue-300">Company</h3>
+//           <ul className="space-y-2">
+//             <li><Link to="/about" className="hover:text-blue-400 transition">About Us</Link></li>
+//             <li><Link to="/careers" className="hover:text-blue-400 transition">Careers</Link></li>
+//             <li><Link to="/privacy-policy" className="hover:text-blue-400 transition">Privacy Policy</Link></li>
+//             <li><Link to="/terms" className="hover:text-blue-400 transition">Terms of Service</Link></li>
+//             <li><Link to="/contact" className="hover:text-blue-400 transition">Contact Us</Link></li>
+//           </ul>
+
+//           <p className="mt-4 text-gray-400 text-sm leading-relaxed">
+//             <a href="mailto:support@pixedge.com" className="hover:text-blue-400">infopixedge@gmail.com</a><br />
+//             Hingane Home Colony<br />
+//             Karve Nagar, Pune (411058), Maharashtra, India
+//           </p>
+
+//           {/* LinkedIn Icon */}
+//         </div>
+//       </div>
+//           <div className="mt-4 flex items-center justify-center gap-3">
+//             <a
+//               href="https://www.linkedin.com/company/pixedge/posts/?feedView=all" 
+//               target="_blank" 
+//               rel="noopener noreferrer"
+//               className="p-3 rounded-full bg-blue-700 hover:bg-blue-500 transition-colors duration-300"
+//             >
+//               <FaLinkedinIn size={18} />
+//             </a>
+//           </div>
+
+//       {/* Divider */}
+//       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-gray-500 text-sm">
+//         © 2025 PixEdge. All rights reserved.
+//       </div>
+//     </footer>
+//   );
+// }
+
+// export default Footer;
+
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaLinkedinIn } from 'react-icons/fa';
@@ -113,7 +194,7 @@ function Footer() {
   return (
     <footer className="bg-gradient-to-b from-gray-900 to-gray-800 text-white py-10 animate-fade-in">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
-        
+
         {/* Brand Info */}
         <div>
           <h3 className="text-2xl font-extrabold mb-4 text-blue-400">PixEdge</h3>
@@ -126,21 +207,21 @@ function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4 text-blue-300">Product</h3>
           <ul className="space-y-2">
-            <li><Link to="/features" className="hover:text-blue-400 transition">Features</Link></li>
-            <li><Link to="/solutions" className="hover:text-blue-400 transition">Solutions</Link></li>
-            <li><Link to="/request-demo" className="hover:text-blue-400 transition">Demo</Link></li>
+            <li><Link to="/features" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">Features</Link></li>
+            <li><Link to="/solutions" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">Solutions</Link></li>
+            <li><Link to="/request-demo" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">Demo</Link></li>
           </ul>
         </div>
 
-        {/* Resources Links */}
+        {/* Resources */}
         <div>
           <h3 className="text-lg font-semibold mb-4 text-blue-300">Resources</h3>
           <ul className="space-y-2">
-            <li><Link to="/docs" className="hover:text-blue-400 transition">Documentation</Link></li>
-            <li><Link to="/api" className="hover:text-blue-400 transition">API Reference</Link></li>
-            <li><Link to="/case-studies" className="hover:text-blue-400 transition">Case Studies</Link></li>
-            <li><Link to="/blog" className="hover:text-blue-400 transition">Blog</Link></li>
-            <li><Link to="/help" className="hover:text-blue-400 transition">Help Center</Link></li>
+            <li><Link to="/docs" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">Documentation</Link></li>
+            <li><Link to="/api" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">API Reference</Link></li>
+            <li><Link to="/case-studies" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">Case Studies</Link></li>
+            <li><Link to="/blog" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">Blog</Link></li>
+            <li><Link to="/help" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">Help Center</Link></li>
           </ul>
         </div>
 
@@ -148,11 +229,11 @@ function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4 text-blue-300">Company</h3>
           <ul className="space-y-2">
-            <li><Link to="/about" className="hover:text-blue-400 transition">About Us</Link></li>
-            <li><Link to="/careers" className="hover:text-blue-400 transition">Careers</Link></li>
-            <li><Link to="/privacy-policy" className="hover:text-blue-400 transition">Privacy Policy</Link></li>
-            <li><Link to="/terms" className="hover:text-blue-400 transition">Terms of Service</Link></li>
-            <li><Link to="/contact" className="hover:text-blue-400 transition">Contact Us</Link></li>
+            <li><Link to="/about" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">About Us</Link></li>
+            <li><Link to="/careers" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">Careers</Link></li>
+            <li><Link to="/privacy-policy" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">Privacy Policy</Link></li>
+            <li><Link to="/terms" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">Terms of Service</Link></li>
+            <li><Link to="/contact" state={{ scrollTo: 'top' }} className="hover:text-blue-400 transition">Contact Us</Link></li>
           </ul>
 
           <p className="mt-4 text-gray-400 text-sm leading-relaxed">
@@ -160,20 +241,20 @@ function Footer() {
             Hingane Home Colony<br />
             Karve Nagar, Pune (411058), Maharashtra, India
           </p>
-
-          {/* LinkedIn Icon */}
         </div>
       </div>
-          <div className="mt-4 flex items-center justify-center gap-3">
-            <a
-              href="https://www.linkedin.com/company/pixedge/posts/?feedView=all" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="p-3 rounded-full bg-blue-700 hover:bg-blue-500 transition-colors duration-300"
-            >
-              <FaLinkedinIn size={18} />
-            </a>
-          </div>
+
+      {/* LinkedIn */}
+      <div className="mt-4 flex items-center justify-center gap-3">
+        <a
+          href="https://www.linkedin.com/company/pixedge/posts/?feedView=all"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-3 rounded-full bg-blue-700 hover:bg-blue-500 transition-colors duration-300"
+        >
+          <FaLinkedinIn size={18} />
+        </a>
+      </div>
 
       {/* Divider */}
       <div className="border-t border-gray-700 mt-8 pt-4 text-center text-gray-500 text-sm">

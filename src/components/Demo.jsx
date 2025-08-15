@@ -23,6 +23,8 @@
 // export default Demo;
 
 import React from 'react';
+import { Link } from 'react-router-dom';
+import RequestDemo from './RequestDemo';
 
 function Demo() {
   return (
@@ -39,12 +41,7 @@ function Demo() {
           <p className="text-base sm:text-lg text-gray-200 mb-6">
             Experience how PixEdge can transform your retail operations with a personalized demo.
           </p>
-          <a
-            href="#"
-            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-300 hover:bg-blue-700"
-          >
-            Schedule Demo
-          </a>
+          <Link to='request-demo' element={<RequestDemo/>}  className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-colors duration-300 hover:bg-blue-700">Schedule Demo</Link>
         </div>
 
         {/* Image Section */}
