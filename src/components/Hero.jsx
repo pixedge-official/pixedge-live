@@ -9,7 +9,7 @@ import RequestDemo from './RequestDemo';
 
 function Hero() {
   return (
-    <section className="bg-no-repeat  bg-cover bg-center bg-[url(https://kintronics.com/wp-content/uploads/2023/09/AI-Camera-Concept-1024x542.png)] h-screen">
+    <section className="bg-no-repeat my-2 bg-cover bg-center bg-[url(https://kintronics.com/wp-content/uploads/2023/09/AI-Camera-Concept-1024x542.png)] h-screen">
       <div className="bg-black/80 h-full flex items-center pt-20 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col-reverse md:flex-row items-center justify-between gap-8">
 
