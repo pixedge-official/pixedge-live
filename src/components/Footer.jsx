@@ -276,11 +276,11 @@ function Footer() {
 
               <motion.a
                 whileHover={{ x: 5 }}
-                href="tel:+912012345678"
+                href="tel:+91 9637****91"
                 className="flex items-center gap-3 text-gray-400 hover:text-blue-400 transition-colors group"
               >
                 <FaPhone className="group-hover:rotate-12 transition-transform" />
-                <span>+91 20 1234 5678</span>
+                <span>+91 9637****91</span>
               </motion.a>
             </div>
 
